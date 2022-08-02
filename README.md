@@ -23,6 +23,7 @@ It basically is a Deep Learning algorithm which takes an input image, tunes the 
 1. Convolution Layer :
 
 The images consist of pixels and are stored in forms of matrices. The convolution layers consist of filters in the form of 3x3x1(or 3 for RGB images) or 5x5x1 square matrices containing weights. These filters superpose on the image matrix and do matrix multiplication to obtain feature maps. These feature maps contain the different characteristics of the image. We can use more than one filter on the same image to obtain different types of feature maps. For RGB images we have three channel filters which in turn form feature maps in the form of 2D matrices.
+
 ![alt text](https://ieee.nitk.ac.in/virtual-expo/assets/img/envision/compsoc/ocr_image2.jpg)
 
 2. Activation Function :
