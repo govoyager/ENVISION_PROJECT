@@ -20,31 +20,31 @@ It basically is a Deep Learning algorithm which takes an input image, tunes the 
 * Padding
 * Fully-Connected Layer
 
-1. Convolution Layer :
+## 1. Convolution Layer :
 
 The images consist of pixels and are stored in forms of matrices. The convolution layers consist of filters in the form of 3x3x1(or 3 for RGB images) or 5x5x1 square matrices containing weights. These filters superpose on the image matrix and do matrix multiplication to obtain feature maps. These feature maps contain the different characteristics of the image. We can use more than one filter on the same image to obtain different types of feature maps. For RGB images we have three channel filters which in turn form feature maps in the form of 2D matrices.
 
 ![alt text](https://ieee.nitk.ac.in/virtual-expo/assets/img/envision/compsoc/ocr_image2.jpg)
 
-2. Activation Function :
+## 2. Activation Function :
 
 These functions add non-linearity to the model to better predict complex features in the images. The most commonly used activation function is ReLU activation function. It maps all the negative numbers to zero and the positive numbers from 0 to infinity.
 
 ![ocr_image3](https://user-images.githubusercontent.com/88763773/182384571-34e1e346-25b7-4b21-be74-1e7b4a9b245b.jpg)
 
-3. Pooling Layer :
+## 3. Pooling Layer :
 
 This layer reduces the spatial size of Convolved Feature to reduce the computational power required to process the data through dimensionality reduction without missing out the important features of the image.
 
 ![ocr_image4](https://user-images.githubusercontent.com/88763773/182385209-fb1a94c9-1374-4c16-8bb7-4f1eb87e2170.jpg)
 
-4. Padding :
+## 4. Padding :
 
 It refers to the process of adding rows and columns around the image matrix. It increases the number of mapping of the corner pixels of the original images and also does dimensional enhancement to make up for the dimensional reduction due to convolution layers.
 
 ![ocr_image5](https://user-images.githubusercontent.com/88763773/182385390-5f40a0fc-fe4e-44d6-a340-185c372b3b4b.jpg)
 
-5. Fully-Connected Layer :
+## 5. Fully-Connected Layer :
 
 After doing the convolutional operations, the 2D matrices are flattened to form a deeply connected neural network. It contains different activation functions to add non-linearity to the model and decrease the losses.
 
